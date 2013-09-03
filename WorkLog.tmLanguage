@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>wl</string>
+	</array>
+	<key>name</key>
+	<string>Work Log</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\d{2}:\d{2}\s{1}</string>
+			<key>name</key>
+			<string>time</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^# \d{1,2}.\d{1,2}.\d{2}</string>
+			<key>name</key>
+			<string>date</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#[A-Za-z0-9]*:</string>
+			<key>name</key>
+			<string>tag</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(`)(?:(?=(\\?))\2.)*?\1</string>
+			<key>name</key>
+			<string>code</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[M|T|W|T|F] \d{1,2}.\d{1,2}.\d{1,2}</string>
+			<key>name</key>
+			<string>day-shedule</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[S] \d{1,2}.\d{1,2}.\d{1,2}</string>
+			<key>name</key>
+			<string>weekend-shedule</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.worklog</string>
+</dict>
+</plist>

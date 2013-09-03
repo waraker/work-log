@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>WorkLog</string>
+	<key>author</key>
+	<string>imagecrisis</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>gutterForeground</key>
+				<string>#acb7c0</string>
+				<key>background</key>
+				<string>#0C1021</string>
+				<key>caret</key>
+				<string>#FFFFFFA6</string>
+				<key>foreground</key>
+				<string>#F8F8F8</string>
+				<key>invisibles</key>
+				<string>#FFFFFF40</string>
+				<key>lineHighlight</key>
+				<string>#FFFFFF0F</string>
+				<key>selection</key>
+				<string>#253b76</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Date</string>
+			<key>scope</key>
+			<string>text.worklog date</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2bff2c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Time</string>
+			<key>scope</key>
+			<string>text.worklog time</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8cd0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Tag</string>
+			<key>scope</key>
+			<string>text.worklog tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fbc960</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Code</string>
+			<key>scope</key>
+			<string>text.worklog code</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fff</string>
+				<key>background</key>
+				<string>#53534c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Schedule Day</string>
+			<key>scope</key>
+			<string>text.worklog day-shedule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3fff00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text Work Log Schedule Weekend</string>
+			<key>scope</key>
+			<string>text.worklog weekend-shedule</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b900bf</string>
+			</dict>
+		</dict>
+	</array>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.work_log</string>
+</dict>
+</plist>
