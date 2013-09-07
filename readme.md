@@ -10,14 +10,16 @@ A simple work log syntax highlighter for Sublime Text
 	`14:00 #TagName:`		Tag for client/project, same as above but enables grouping of durations.
 
 
-## Example Work Log file: `work.wl`
+## Example Work Log file:
 
-# 6.9.13
-10:00 standard task
-11:00 b
-12:30 #ProjectName: tagged entry task
-13:30 b
+`work.wl`
 
-# 7.9.13
-11:30 update readme, push commits
-11:40 b
+	# 6.9.13
+	10:00 standard task
+	11:00 b
+	12:30 #ProjectName: tagged entry task
+	13:30 b
+
+	# 7.9.13
+	11:30 update readme, push commits
+	11:40 b
