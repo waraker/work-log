@@ -75,6 +75,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Text Work Log Link</string>
+			<key>scope</key>
+			<string>text.worklog link</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fff</string>
+				<key>background</key>
+				<string>#53534c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Text Work Log Schedule Day</string>
 			<key>scope</key>
 			<string>text.worklog day-shedule</string>
