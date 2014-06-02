@@ -4,10 +4,10 @@ A simple work log syntax highlighter for Sublime Text
 
 ## Syntax
 
-`# 1.1.13` Log date.
-`12:00 item description here` Item start time with description.
-`13:00 b` Item end time. Via a break symbol ends the the current duration.
-`14:00 #TagName: item description here` Tag for client/project, same as above but enables grouping of durations.
+`# 1.1.13` Log date. 
+`12:00 item description here` Item start time with description. 
+`13:00 b` Item end time. Via a break symbol ends the the current duration. 
+`14:00 #TagName: item description here` Tag for client/project, same as above but enables grouping of durations. 
 
 
 ## Example Work Log file:
