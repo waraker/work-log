@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>day-shedule</string>
 			<key>match</key>
-			<string>[M|T|W|T|F] \d{1,2}.\d{1,2}.\d{1,2}</string>
+			<string>^[M|T|W|T|F] \d{1,2}.\d{1,2}.\d{1,2}</string>
 		</dict>
 		<dict>
 			<key>name</key>
