@@ -23,3 +23,13 @@ A simple work log syntax highlighter for Sublime Text
 	# 7.9.13
 	11:30 update readme, push commits
 	11:40 b
+
+## Example Day Schedule:
+
+	M 13.1.14
+	T 14.1.14
+	W 15.1.14
+	T 16.1.14
+	F 17.1.14
+	S 18.1.14
+	S 19.1.14
