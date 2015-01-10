@@ -38,7 +38,7 @@
 			<key>name</key>
 			<string>link</string>
 			<key>match</key>
-			<string><![CDATA[<https?://[a-zA-Z0-9\-_&#\/?=~_!.]*>]]></string>
+			<string><![CDATA[<https?://[a-zA-Z0-9\-_&#\/?=~_!.+]*>]]></string>
 		</dict>
 		<dict>
 			<key>name</key>
