@@ -30,6 +30,12 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>location</string>
+			<key>match</key>
+			<string>remote: | onsite:</string>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>code</string>
 			<key>match</key>
 			<string>(`)(?:(?=(\\?))\2.)*?\1</string>

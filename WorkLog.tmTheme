@@ -62,6 +62,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Text Work Log Tag</string>
+			<key>scope</key>
+			<string>text.worklog location</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8cd0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Text Work Log Code</string>
 			<key>scope</key>
 			<string>text.worklog code</string>
